@@ -7,7 +7,11 @@ _it is a group project for the Rolling Code course, first module, it is a blog p
 technical skills applied in the project:
 
 * HTML 
-* CSS
 * BOOTSTRAP 5
+* BOOTSTRAP COMPONENTS
+* FLEXBOX Y GRID
+* OOCSS
+* BOOTSTRAP 5
+* CSS
 * RESPONSIVE DESIGN 100%
 
