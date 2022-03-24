@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post</title>
+
+    <!-- cdn bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- cdn icons bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+
+    <!-- style css -->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body class="bg-bootstrap">
+
+
+
+  <!-- ===================== start header area ===================== -->
+  <header class="fixed-top shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-light bg-bootstrap sticky-top p-1">
+        <div class="container-fluid bg-bootstrap">
+          <a class="navbar-brand text-white d-flex justify-content-center align-items-center" href="./index.html"><img src="./assets/images/logo.png" alt="logo-bootstrap" width="50" height="50" class="d-inline-block align-text-top me-2">Bootstrap</a>
+            <button class="navbar-toggler btn-neumorphism" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-warning" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" href="./contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" href="./aboutUs.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" href="./gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" href="./blogPost.html">Blog Post</a>
+                    </li>
+                    <li class="nav-item d-lg-none">
+                        <a class="nav-link text-warning" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Subscription</a>
+                    </li>
+                    <li class="nav-item d-lg-none">
+                    <a type="button" class="btn d-none text-warning d-lg-block mx-lg-3 ms-lg-5" href="./error404.html">Login</a>
+                        <a class="nav-link text-warning" href="./login.html">Login</a>
+                    </li>
+                </ul>
+                <a type="button" class="btn btn-neumorphism text-warning d-none d-lg-block mx-lg-3 ms-lg-5" href="./login.html">Login</a>
+                <button type="button" class="btn btn-neumorphism text-warning d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#exampleModal">Subscription</button>
+            </div>
+        </div>
+    </nav>
+  </header>
+  <div class="mt-5 pt-1"></div>
+  <!-- ===================== end header area ===================== -->
+
+
+  
+  <!-- ===================== start modal area ===================== -->
+  <div class="modal fade mt-5" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content bg-bootstrap-modal">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Subscription</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control input-neumorphism-modal" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control input-neumorphism-modal" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input input-neumorphism-modal" id="exampleCheck2">
+                        <label class="form-check-label" for="exampleCheck1">Receive email notifications</label>
+                    </div>
+                </form>
+            </div> 
+            <div class="modal-footer">
+                <button type="button" class="btn btn-neumorphism-modal text-danger" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-neumorphism-modal text-success" data-bs-dismiss="modal">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ===================== end modal area ===================== -->
+
+
+
+  <!-- ===================== start blog post area ===================== -->
+  <div class="d-flex flex-column mt-5 flex-wrap flex-sm-row mx-1 mx-sm-4 mx-md-5">
+    <div class="col-10 mx-auto col-sm-12">
+      <div class="d-flex justify-content-center bg-neumorphism mb-4">
+        <div class="col-10 mb-2">
+          <h1 class="d-flex justify-content-center align-items-center h1 my-3 text-white">What is Bootstrap? A guide for beginners</h1>
+          <span class="mx-auto text-center my-2 mx-2 text-warning">2/2/2022</span>
+          <p class="d-flex justify-content-center my-3 mx-2 text-white">Are you a front-end developer tired of writing CSS syntax over and over again? That's your cue to start using Bootstrap! In this article we will tell you what boostrap is, what are the benefits of using this web framework and how to integrate it into your project correctly.</p>
+          <div class="d-flex justify-content-center my-2">
+            <img src="./assets/images/slider-1.png" alt="blog-entry" class="img-fluid btn-neumorphism">
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center bg-neumorphism my-4">
+        <div class="col-10 mb-8">
+          <h1 class="d-flex justify-content-center h1 my-3 text-white">Bootstrap parent files</h1>
+          <span class="mx-auto text-left text-warning">2/1/2022</span>
+          <p class="d-flex justify-content-center my-3 mx-2 text-white">Bootstrap.css is a CSS framework that organizes and manages the layout of a website. While HTML manages the content and structure of a web page, CSS deals with the design of the site. For that reason, both structures must coexist to perform a particular action. Due to its functions, CSS allows you to create a uniform appearance on as many web pages as you wish. Say goodbye to hours of manual editing just to change the width of a border. With CSS, all you need to do is refer web pages to the CSS file. Any necessary alterations can be made in that single file. CSS features are not limited to just text styles, as they can be used to format other aspects of the web page, such as tables and image layouts.</p>
+          <div class="d-flex justify-content-center my-2">
+            <img src="./assets/images/slider-2.png" alt="blog-entry" class="img-fluid btn-neumorphism">
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center bg-neumorphism my-4">
+        <div class="col-10 mb-2">
+          <h1 class="d-flex justify-content-center h1 my-3 text-white">Tips to initialize in Booststrap</h1>
+          <span class="mx-auto text-left text-warning">12/12/2021</span>
+          <p class="d-flex justify-content-center my-3 mx-2 text-white">Component-based frameworks designed and built by the best Bootstrap creators in the world.</p>
+          <div class="d-flex justify-content-center my-2">
+            <img src="./assets/images/slider-3.png" alt="blog-entry" class="img-fluid btn-neumorphism">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>                        
+  <!-- ===================== end blog post area ===================== -->
+
+
+
+  <!-- ===================== start comments area ===================== -->
+  <div class="d-flex justify-content-center flex-column mx-3 mx-md-5 my-5">
+    <h2 class="mb-4 text-white">Comments</h2>
+    <div href="./error404.html" class=" mb-3 btn-neumorphism p-4">
+      <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1 text-white">Irene</h5>
+          <small class="text-warning">4 days ago</small>
+      </div>
+      <p class="mb-3 text-white">Hi there, just wanted to tell you, I liked this blog post. It was inspiring. Keep on posting!.</p>
+      <a href="./error404.html" class="btn-neumorphism text-warning px-3 py-1">Reply</a>
+    </div>
+    <div href="./error404.html" class=" my-3 btn-neumorphism p-4">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1 text-white">Federico Aldana</h5>
+        <small class="text-warning">3 months ago</small>
+      </div>
+      <p class="mb-4 text-white">Ahora veo el potencial, con flex o grid claro que se podría hacer pero precisamente un framework trae las herramientas ya hechas para evitarnos trabajo, muchas gracias, y los ejemplos muy claros</p>
+      <a href="./error404.html" class="btn-neumorphism text-warning px-3 py-1">Reply</a>
+    </div>
+    <div href="./error404.html" class=" my-3 btn-neumorphism p-4">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1 text-white">Andrea</h5>
+        <small class="text-warning">4 months ago</small>
+      </div>
+      <p class="mb-3 text-white">me estoy viendo el curso completo, las explicaciones son geniales!!! esperando la siguiente entrega, gracias!!!</p>
+      <a href="./error404.html" class="btn-neumorphism text-warning px-3 py-1">Reply</a>
+    </div>
+    <div href="./error404.html" class="my-3 btn-neumorphism p-4">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1 text-white">Nova Ugaz</h5>
+        <small class="text-warning">15 days ago</small>
+      </div>
+      <p class="mb-3 text-white">Espero que puedas seguir con el Curso, esta muy bueno y muy util Gracias!</p>
+      <a href="./error404.html" class="btn-neumorphism text-warning px-3 py-1">Reply</a>
+    </div>               
+    <div href="./error404.html" class=" my-3 btn-neumorphism p-4">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1 text-white">Alejandro David Benolol</h5>
+        <small class="text-warning">2 months ago</small>
+      </div>
+      <p class="mb-3 text-white">muchas gracias, me estoy metiendo en el mundillo este y tus cursos son realmente geniales. Explicas muy claro.</p>
+      <a href="./error404.html" class="btn-neumorphism text-warning px-3 py-1">Reply</a>
+    </div>                
+  </div>
+  <!-- ===================== start comments area ===================== -->
+
+
+
+  <!-- ===================== start form area ===================== -->   
+  <form class="container-fluid my-5 w-100 ps-1">
+    <div class="row g-3 needs-validation d-flex flex-column mx-auto col-10 mx-md-5 col-md-10" novalidate>
+      <div class="col-12 mb-2 col-sm-8 col-md-6">
+        <h2 class="mb-3 text-white">Your Comment</h2>
+        <label for="validationCustom01" class="form-label fs-6 text-white">Name</label>
+        <input type="text" class="form-control input-neumorphism" id="validationCustom01" required>
+      </div>
+      <div class="col-12 mb-2 col-sm-8 col-md-6">
+        <label for="validationCustom02" class="form-label text-white">Last Name</label>
+        <input type="text" class="form-control input-neumorphism text-white" id="validationCustom02" required>
+      </div>
+      <div class="col-12 mb-4 col-sm-8 col-md-6">
+        <label for="validationCustomUsername" class="form-label text-white">Email</label>
+        <div class="input-group has-validation">
+          <input type="mail" class="form-control input-neumorphism" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+        </div>
+      </div>
+      <div class="form-floating mb-2¡ col-12 col-sm-8 col-md-6">
+        <textarea class="form-control input-neumorphism" placeholder="Leave a comment here" id="floatingTextarea" style="height: 10rem;"></textarea>
+        <label for="floatingTextarea" class="ms-3 my-1 text-white">Your Comment</label>
+      </div>
+      <div class="col-12 mb-2">
+        <div class="form-check">
+          <input class="form-check-input input-neumorphism" type="checkbox" value="" id="invalidCheck" required>
+          <label class="form-check-label col-10 mb-4 col-sm-6 col-md-4 text-white" for="invalidCheck">I agree with the terms and conditions</label>
+          <div class="invalid-feedback text-white">You must agree before submitting.</div>
+        </div>
+      </div>
+      <div class="col-12">
+        <button class="btn btn-neumorphism text-warning px-5" type="submit">Submit</button>
+      </div>
+    </div>
+  </form>
+  <!-- ===================== end form area ===================== -->
+      
+      
+
+  <!-- ===================== start footer area ===================== -->
+  <footer class="bg-bootstrap-footer d-flex flex-column justify-content-sm-between flex-sm-row align-items-sm-center py-sm-3">
+    <a href="./index.html"  class="justify-content-center d-flex">
+        <img src="./assets/images/logo.png" alt="img-logo-footer" class="img-fluid " style="width: 5rem; height: 5rem;">
+    </a>
+    <div class="d-flex justify-content-around flex-sm-row ms-2 order-sm-2">
+        <a href="./error404.html"><i class="bi bi-facebook btn-neumorphism-footer text-white p-1 px-2 mx-sm-2" style="font-size: 1.5rem;"></i></a>
+        <a href="./error404.html"><i class="bi bi-twitter btn-neumorphism-footer text-white p-1 px-2 mx-sm-2" style="font-size: 1.5rem;"></i></a>
+        <a href="./error404.html"><i class="bi bi-instagram btn-neumorphism-footer text-white p-1 px-2 mx-sm-2 style" style="font-size: 1.5rem;"></i></a>
+    </div>
+    <hr class="text-white mx-3 d-sm-none">
+    <span class="text-white mx-3 d-flex justify-content-center order-sm-1">Rights Reserved to Rolling Code Team 2</span>
+</footer>
+<!-- ===================== end footer area ===================== -->
+    
+
+    
+<!-- script bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>    
+
+
+<!-- script validation form -->
+<script>
+  (function () {
+    'use strict'
+    var forms = document.querySelectorAll('.needs-validation')
+    Array.prototype.slice.call(forms)
+      .forEach(function (form) {
+        form.addEventListener('submit', function (event) {
+          if (!form.checkValidity()) {
+            event.preventDefault()
+            event.stopPropagation()
+          }
+  
+          form.classList.add('was-validated')
+        }, false)
+      })
+  })()
+  </script>
+
+
+</body>
+</html>

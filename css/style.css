@@ -1,0 +1,118 @@
+:root {
+    --main-color-: #7952b3;
+    --secondary-color: #292929;
+    --modal-color: #f2f2f2;
+}
+
+
+/* start style neumorphism  */
+.bg-bootstrap {
+    background: var(--main-color-);
+}
+
+.bg-neumorphism  {
+    border-radius: 50px;
+    background: var(--main-color-);
+    box-shadow:  20px 20px 60px #674698, -20px -20px 60px #8b5ece;
+    text-decoration: none !important;
+    border: none;
+}
+
+.input-neumorphism {
+    border-radius: 37px;
+    background: var(--main-color-);
+    box-shadow: inset 6px 6px 12px #5d3f8a, inset -6px -6px 12px #9565dc;
+    border: none;
+}
+
+.btn-neumorphism {
+    border-radius: 37px;
+    background: linear-gradient(145deg, #6d4aa1, #8158c0);
+    box-shadow:  6px 6px 12px #5d3f8a, -6px -6px 12px #9565dc;
+    text-decoration: none !important;
+    border: none;
+}
+
+.gallery-neumorphism {
+    background: linear-gradient(145deg, #6d4aa1, #8158c0);
+    box-shadow:  6px 6px 12px #5d3f8a, -6px -6px 12px #9565dc;
+    text-decoration: none !important;
+    border: none;
+}
+
+.form-control::placeholder {
+    color: #fff;
+}
+
+.form-control:active{
+    border: none;
+    outline: none;
+}
+
+
+.bg-bootstrap-footer {
+    background: var(--secondary-color);
+}
+
+.bg-neumorphism-footer {
+    border-radius: 50px;
+    background: var(--secondary-color);
+    box-shadow:  20px 20px 60px #202020, -20px -20px 60px #323232;
+    text-decoration: none !important;
+    border: none;
+}
+
+.input-neumorphism-footer {
+    border-radius: 37px;
+    background: var(--secondary-color);
+    box-shadow: inset 6px 6px 12px #202020, inset -6px -6px 12px #323232;
+}
+
+.btn-neumorphism-footer {
+    border-radius: 37px;
+    background: linear-gradient(145deg, #252525, #2c2c2c);
+    box-shadow:  6px 6px 12px #202020, -6px -6px 12px #323232;
+    text-decoration: none !important;
+    border: none;
+}
+
+
+.bg-bootstrap-modal {
+    background: var(--modal-color);
+}
+
+    
+.input-neumorphism-modal {
+    border-radius: 37px;
+    background: var(--modal-color);
+    box-shadow: inset 6px 6px 12px #bababa, inset -6px -6px 12px #ffffff;
+}
+    
+.btn-neumorphism-modal {
+    border-radius: 37px;
+    background: linear-gradient(145deg, #ffffff, #dadada);
+    box-shadow:  6px 6px 12px #bababa, -6px -6px 12px #ffffff;
+}
+
+.page-item {
+    background:  var(--main-color-) !important;
+    color: #fff !important;
+}
+
+.img-neumorphims-rounded {
+    border-radius: 153px;
+    background: linear-gradient(145deg, #8158c0, #6d4aa1);
+    box-shadow:  8px 8px 19px #53397c, -8px -8px 19px #9f6bea;
+}
+
+.text-bootstrap {
+    color: var(--main-color-);
+}
+/* end style neumorphism */
+
+
+@media (min-width: 992px) {
+    .vh-md-100 {
+        height: 100vh;
+    }
+}
